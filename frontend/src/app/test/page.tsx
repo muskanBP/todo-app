@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function TestPage() {
   return (
     <div style={{ padding: '40px', backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
@@ -21,9 +23,9 @@ export default function TestPage() {
         </ul>
       </div>
       <div style={{ marginTop: '20px' }}>
-        <a href="/" style={{ color: '#0070f3', textDecoration: 'underline' }}>
+        <Link href="/" style={{ color: '#0070f3', textDecoration: 'underline' }}>
           Go back to homepage
-        </a>
+        </Link>
       </div>
     </div>
   );
